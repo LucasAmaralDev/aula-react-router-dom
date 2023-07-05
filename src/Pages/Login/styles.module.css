@@ -1,0 +1,42 @@
+.site{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.base{
+    box-shadow: 0 3px 6px rgb(106, 105, 105);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4vw 6vh;
+}
+
+.base h1 {
+    font-size: 3rem;
+    color: rgb(73, 71, 71);
+}
+
+.base input{
+    border: 0.2px solid gray;
+    border-radius: 1rem;
+    width: 17rem;
+    height: 3rem;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.base button{
+    margin: 1rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 1px 2px black;
+}
